@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+body {
+  margin: 0px;
+  font-family: 'Roboto', sans-serif;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+
+.display {
+  background: white;
+  border: 1px solid #dedede;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin: 10px auto;
+  max-width: 500px;
+  padding: 30px ;
+}
+.mytitle{
+  position: relative;
+  left: 670px;
+  padding: 10px;
+  width: 145px;
+}
+
+
+form {
+  background: white;
+  border: 1px solid #dedede;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin: 0 auto;
+  max-width: 500px;
+  padding: 30px 50px;
+}
+.PhoneInput{
+  position: relative;
+  top: 33px;
+ }
+
+
+ .phone{
+  position: relative;
+  top: 20px;
+
+ }
+
+
+.form-group1 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.form-group1-sub {
+  flex: 33.33%;
+}
+.PhoneInputCountry{
+  width: 140px;
+}
+
+.PhoneInputInput{
+  position: relative;
+    top: -72px;
+    left: 160px;
+    width: 60%;
+}
+
+.PhoneInputCountryIconImg{
+  height: 0px !important;
+}
+
+.p2{
+  padding:2px
+}
+
+input {
+  border: 1px solid #d9d9d9;
+  border-radius: 4px;
+  box-sizing: border-box;
+  padding: 10px;
+  width: 100%;
+}
+
+select {
+  border: 1px solid #d9d9d9;
+  border-radius: 4px;
+  box-sizing: border-box;
+  padding: 10px;
+  width: 100%;
+}
+
+.submitButton {
+  background-color: #6976d9;
+  color: white;
+  font-family: sans-serif;
+  font-size: 14px;
+  margin: 20px 0px;
+}
+ small {
+  color: #3d3d3d;
+  display: block;
+  font-family: sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+
+// h1 {
+//   border-bottom: 1px solid white;
+//   color: #3d3d3d;
+//   font-family: sans-serif;
+//   font-size: 20px;
+//   font-weight: 600;
+//   line-height: 24px;
+//   padding: 10px;
+//   text-align: center;
+// }
